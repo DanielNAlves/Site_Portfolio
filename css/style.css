@@ -2,9 +2,9 @@
 
 :root
 {
-    --bg--black-900:#f2f2fc;
-    --bg--black-100:#fdf9ff;
-    --bg--black-50:#e8dfec;
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
 }
@@ -34,7 +34,7 @@ ul
 }
 .section
 {
-    background: var(--bg--black-900);
+    background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -139,13 +139,13 @@ ul
 .aside
 {
     width: 270px;
-    background: var(--bg--black-100);
+    background: var(--bg-black-100);
     position: fixed;
     left: 0;
     top: 0;
     padding: 30px;
     height: 100%;
-    border-right: 1px solid var(--bg--black-50);
+    border-right: 1px solid var(--bg-black-50);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +202,7 @@ ul
 {
     height: 40px;
     width: 45px;
-    border: 1px solid var(--bg--black-50);
+    border: 1px solid var(--bg-black-50);
     cursor: pointer;
     position: fixed;
     left: 300px;
@@ -261,7 +261,7 @@ ul
     font-size: 16px;
     font-weight: 600;
     display: block;
-    border-bottom: 1px solid var(--bg--black-50);
+    border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
 }
@@ -407,7 +407,34 @@ h3.my-profession
 {
     flex: 0 0 50%;
     max-width: 50%;
-    background-color: red;
+}
+
+.about .abaut-content .personal-info .info-item p
+{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--text-black-900);
+    border-bottom: 50px solid var(--bg-black-50);
+}
+
+.about .abaut-content .personal-info .info-item p span
+{
+    font-weight: 400;
+    color: var(--text-black-700);
+    margin-left: 4PX;
+    display: inline-block;
+}
+
+.about .abaut-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+
+.about .abaut-content .personal-info .buttons .btn
+{
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .about .about-content .skills
