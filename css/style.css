@@ -656,6 +656,12 @@ h3.my-profession
 }
 
 /* Service */
+
+.service
+{
+    /* Classe para ativar e desativar serviços*/
+    display: none;
+}
 .service .container
 {
     padding-bottom: 40px;
