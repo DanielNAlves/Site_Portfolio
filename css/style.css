@@ -747,6 +747,13 @@ h3.my-profession
     color: var(--text-black-900);
     font-weight: 500;
 }
+.portfolio .portfolio-img h3{
+    text-align: center;
+    text-transform: capitalize;
+    top: 20px;
+    background-color: var(--bg-black-100);
+    color: var(--text-black-700);
+}
 
 .portfolio .portfolio-item
 {
