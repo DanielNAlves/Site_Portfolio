@@ -734,6 +734,11 @@
             </h4>
 
             <!-- ==== Contact Form Start  ==== -->
+            <form
+              action="https://formsubmit.co/917f962f38adec0ee222d6956521140c"
+              method="POST"
+              class="contact-form padd-15"
+            >
             <div class="row">
               <div class="contact-form padd-15">
                 <div class="row">
@@ -741,6 +746,7 @@
                     <div class="form-group">
                       <input
                         type="text"
+                        name="name"
                         class="form-control"
                         id="name"
                         placeholder="Nome"
@@ -752,6 +758,7 @@
                     <div class="form-group">
                       <input
                         type="email"
+                        name="email"
                         class="form-control"
                         id="email"
                         placeholder="Email"
@@ -765,6 +772,7 @@
                     <div class="form-group">
                       <input
                         type="text"
+                        name="subject"
                         class="form-control"
                         id="subject"
                         placeholder="Assunto"
@@ -777,7 +785,7 @@
                   <div class="form-item col-12 padd-15">
                     <div class="form-group">
                       <textarea
-                        name=""
+                        name="message"
                         class="form-control"
                         id="message"
                         placeholder="Mensagem"
@@ -786,15 +794,18 @@
                   </div>
                 </div>
 
+                <input type="hidden" name="_next" value="https://danielvnaportfolio.netlify.app/#home" />
+
                 <div class="row">
                   <div class="form-item col-12 padd-15">
-                    <button type="submit" class="btn" onclick="sendEmail()">
+                    <button type="submit" class="btn">
                       Enviar Mensagem
                     </button>
                   </div>
                 </div>
               </div>
             </div>
+          </form>
 
             <!-- ==== Contact Form End ==== -->
           </div>
